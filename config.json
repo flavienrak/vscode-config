@@ -12,9 +12,9 @@
   "prettier.tabWidth": 2,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
     "vue-html": "html"
   },
-  "files.autoSave": "afterDelay",
   "editor.linkedEditing": true,
   "editor.tabSize": 2,
   "typescript.suggest.completeFunctionCalls": true,
@@ -29,5 +29,10 @@
   "reactSnippets.settings.prettierEnabled": true,
   "git.autofetch": true,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "files.autoSave": "onFocusChange",
+  "git.openRepositoryInParentFolders": "never",
+  "window.zoomLevel": 1
 }
