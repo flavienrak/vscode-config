@@ -22,7 +22,6 @@
   "liveServer.settings.donotVerifyTags": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.enableSmartCommit": true,
-  "workbench.colorTheme": "Firefox Devtools Italic",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -34,5 +33,18 @@
   "editor.tabCompletion": "on",
   "files.autoSave": "onFocusChange",
   "git.openRepositoryInParentFolders": "never",
-  "window.zoomLevel": 1
+  "tabnine.experimentalAutoImports": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.openDevTools": "flutter",
+  "window.menuBarVisibility": "compact",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
 }
